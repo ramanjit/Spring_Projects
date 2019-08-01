@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   
+<bean id = "helloWorld" class = "beanInheritence_package.Pojo_class">
+<property name="message1" value = "Hello World ! "></property>
+<property name="message2" value = "Hello 2nd world"></property>
+</bean>
+
+<bean id = "helloUS" class = "beanInheritence_package.Hello" parent = "helloWorld">
+<property name="message1" value = "Hello United States!  "></property>
+<property name="message3" value = "Good Morning United States! "></property>
+</bean>
+
+</beans>

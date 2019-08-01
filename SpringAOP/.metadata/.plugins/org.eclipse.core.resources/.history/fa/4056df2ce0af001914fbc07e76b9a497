@@ -1,0 +1,17 @@
+package com.raman.Aspect;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+
+
+//Become aspect
+@Aspect
+public class LoggingAspect {
+	
+	@Before("execution(public String com.raman.Aspect.Model.Circle.getName())")  //advice method run before getName
+	public  void LoggingAdvice()
+	{
+	System.out.println("Advice run. Get Method Called");
+	}
+
+}

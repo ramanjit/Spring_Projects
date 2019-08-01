@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+<!-- Defination of ABbean -->
+  <bean id = "ab" class = "com.raman.ABean" autowire = "byName" >
+  <property name = "name" value = "Raman"></property>
+  </bean>
+  
+  <bean id = "bbean" class = "com.raman.Bbean"></bean>
+  
+  </beans>

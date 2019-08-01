@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:context="http://www.springframework.org/schema/context" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans.xsd 
+www.springframework.org/schema/context 
+www.springframework.org/schema/context/spring-context.xsd" > 
+
+<bean id="userBean" class="com.demo.bean.UserBean">
+<property name="id" value="100" /> 
+<property name = "name" value="Raman" /> 
+<property name ="balance" value="199" /> 
+</bean>
+
+
+<bean id = "userBean2" class="com.demo.bean.UserBean">
+<constructor-arg name="id" value="100"></constructor-arg>
+<constructor-arg name = "name" value="Ramanjit" /> 
+<constructor-arg name ="balance" value="199" /> 
+</bean>
+</beans>

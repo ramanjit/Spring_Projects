@@ -1,0 +1,5 @@
+package com.raman.dao;
+
+public interface EmployeeDAO {
+
+}

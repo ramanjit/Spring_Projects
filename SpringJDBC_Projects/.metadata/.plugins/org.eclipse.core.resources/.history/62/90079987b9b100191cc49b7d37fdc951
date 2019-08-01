@@ -1,0 +1,31 @@
+package com.raman.client;
+
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.raman.model.Employee;
+import com.raman.service.EmployeeService;
+import com.raman.service.Impl.EmployeeServiceImpl;
+
+public class Test {
+
+	public static void main(String[] args) {
+	AbstractApplicationContext ctx= new ClassPathXmlApplicationContext("Beans.xml");
+	EmployeeService employeeService = ctx.getBean("employeeService", EmployeeServiceImpl.class);
+	
+	createEmployee(employeeService);
+
+	ctx.close();
+	}
+
+	private static void createEmployee(EmployeeService employeeService) {
+		Employee emp = new Employee();
+		emp.setEmail("raman");
+		emp.setEmployee_name("Raman");
+		emp.setEmployeeId(1);
+		emp.setSalary(3000);
+		emp.setGender("F");
+		employeeService.addEmployee(emp);
+	}
+
+}

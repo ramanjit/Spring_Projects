@@ -1,0 +1,5 @@
+package com.raman.service;
+
+public interface EmployeeService {
+
+}

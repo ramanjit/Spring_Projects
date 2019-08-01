@@ -1,0 +1,11 @@
+package com.raman.dao;
+
+public interface EmployeeDAO {
+	
+	
+	/*
+	 Perform CRUD Operation
+	 */
+	public abstract void createEmployee(Employee employee);
+
+}

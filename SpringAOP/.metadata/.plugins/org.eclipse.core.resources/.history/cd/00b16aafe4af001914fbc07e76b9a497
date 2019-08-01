@@ -1,0 +1,38 @@
+package com.raman.Aspect;
+
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+
+
+//Become aspect
+@Aspect
+public class LoggingAspect {
+	
+	@Before("allGetter()")  //advice method run before getName
+		public  void LoggingAdvice()
+	{
+	System.out.println("Advice run. Get Method Called");
+	}
+	
+	
+	@Before("allGetter()")  //advice method run before getName
+	public void secondAdvice()
+	{
+		System.out.println("Second advice is executed");
+	}
+	
+	//Pointcut matches with the methods
+	//Such as allGetter with all Getter methods
+	@Pointcut("execution(public * get*())")
+	public void allGetter()
+	{
+		
+	}
+	
+	@Pointcut("within(com.raman.Aspect.Model.*)")
+	public void allCircleMethods()
+	{
+	
+	}
+}

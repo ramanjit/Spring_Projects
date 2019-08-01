@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Desktop/Marlabs /Marlabs Notes/Day1/OneDrive_1_6-8-2019/Spring-master/spring-security-limit-login/target/SpringSecurity/WEB-INF/lib/spring-jdbc-3.2.8.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Documents/workspace/jdbc-project/mysql-connector-java-8.0.15.jar"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Desktop/Marlabs /REST-master/springmvcjson/target/SpringMVC/web-inf/lib/spring-context-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Desktop/Marlabs /REST-master/springmvcjson/target/SpringMVC/web-inf/lib/spring-beans-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Desktop/Marlabs /REST-master/springmvcjson/target/SpringMVC/web-inf/lib/spring-core-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Desktop/Marlabs /REST-master/springmvcjson/target/SpringMVC/web-inf/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Desktop/Marlabs /REST-master/springmvcjson/target/SpringMVC/web-inf/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Desktop/Marlabs /REST-master/springmvcjson/target/SpringMVC/web-inf/lib/jackson-core-asl-1.9.10.jar"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Desktop/Marlabs /REST-master/springmvcjson/target/SpringMVC/web-inf/lib/jackson-mapper-asl-1.9.10.jar"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Desktop/Marlabs /REST-master/springmvcjson/target/SpringMVC/web-inf/lib/spring-aop-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Desktop/Marlabs /REST-master/springmvcjson/target/SpringMVC/web-inf/lib/spring-expression-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Desktop/Marlabs /REST-master/springmvcjson/target/SpringMVC/web-inf/lib/spring-web-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/Users/ramanjitkaur/Desktop/Marlabs /REST-master/springmvcjson/target/SpringMVC/web-inf/lib/spring-webmvc-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

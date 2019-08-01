@@ -1,0 +1,23 @@
+package com.raman.dao.impl;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
+
+import com.raman.model.Employee;
+
+public class EmployeeRowMapper implements RowMapper<Employee>{
+
+	public Employee mapRow(ResultSet rs, int rowNum) throws SQLException {
+		// TODO Auto-generated method stub
+		Employee employee = new Employee();
+		employee.setEmail(rs.getString("email"));
+		employee.setEmployeeId(rs.getInt("employee_id"));
+		employee.setEmployee_name(rs.getString("employee_name"));
+		employee.setGender(rs.getString(""));
+		employee.setSalary(rs.getInt("salary"));
+		return null;
+	}
+
+}

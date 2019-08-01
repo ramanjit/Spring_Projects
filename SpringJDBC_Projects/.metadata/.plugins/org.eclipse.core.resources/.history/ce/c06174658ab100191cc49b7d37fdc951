@@ -1,0 +1,9 @@
+package com.raman.client;
+
+public class Test {
+
+	public static void main(String[] args) {
+	AbsractApplicationContext ctx= new ClassPathXmlApplicationContext("Beans.xml");
+	}
+
+}

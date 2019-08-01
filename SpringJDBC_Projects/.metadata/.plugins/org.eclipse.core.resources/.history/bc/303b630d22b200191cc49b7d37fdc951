@@ -1,0 +1,14 @@
+package com.raman.dao.impl;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.jdbc.core.RowMapper;
+
+import com.raman.model.Employee;
+
+public class EmployeeRowMapper implements RowMapper<Employee>{
+
+	
+
+}
