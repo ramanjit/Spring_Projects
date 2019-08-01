@@ -1,0 +1,22 @@
+!SESSION 2019-08-01 16:26:28.181 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/ramanjitkaur/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data /Users/ramanjitkaur/Documents/git/Spring_Projects -product org.eclipse.epp.package.java.product -keyring /Users/ramanjitkaur/.eclipse_keyring
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2019-08-01 16:26:46.482
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Service Temporarily Unavailable. ; version: 2.0.4.v20170307-1435
+!STACK 0
+org.apache.http.client.HttpResponseException: Service Temporarily Unavailable
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseHandler.handleResponse(HttpResponses.java:71)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:93)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses$ProgressMonitorResponseStringHandler.handleResponse(HttpResponses.java:1)
+	at org.apache.http.client.fluent.Response.handleResponse(Response.java:90)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.HttpResponses.getContentWithProgress(HttpResponses.java:56)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:69)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
