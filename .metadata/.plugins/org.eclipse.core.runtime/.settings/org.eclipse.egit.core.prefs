@@ -1,3 +1,4 @@
-GitRepositoriesView.GitDirectories=/Users/ramanjitkaur/Documents/git/Spring_Projects/.git\:
-GitRepositoriesView.GitDirectories.relative=.git\:
+GitRepositoriesView.GitDirectories=/Users/ramanjitkaur/Documents/git/.git\:/Users/ramanjitkaur/Documents/git/Spring_Projects/.git\:
+GitRepositoriesView.GitDirectories.relative=/Users/ramanjitkaur/Documents/git/.git\:.git\:
+core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
